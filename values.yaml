@@ -1,3 +1,5 @@
-mariadb.enabled: false
+mariadb: {
+  enabled: false
+}
 
 drupalHashSalt: "This isMy Salt"
