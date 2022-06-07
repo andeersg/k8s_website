@@ -1,1 +1,3 @@
 mariadb.enabled: false
+
+drupalHashSalt: "This isMy Salt"
