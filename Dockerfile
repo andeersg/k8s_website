@@ -16,5 +16,7 @@ RUN composer install \
 
 FROM webdevops/php-nginx:7.4
 
+LABEL org.opencontainers.image.source https://github.com/andeersg/k8s_website
+
 # Copy precompiled codebase into the container.
 COPY --from=vendor /app/ /var/www/html/
